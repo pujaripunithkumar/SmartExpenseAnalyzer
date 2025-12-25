@@ -68,7 +68,7 @@ Instructions to set up the project on your local machine.
  ┣ 📜 main.py            # Main Flask application logic
  ┣ 📜 expenses.csv       # Data storage (Auto-generated)
  ┗ 📜 README.md          # Documentation
-'''
+```
 ## 🔮 Future Roadmap
 * [ ] *Database Migration:* Upgrade from CSV to SQLite/PostgreSQL for scalability.
 * [ ] *User Auth:* Implement Login/Signup functionality.
