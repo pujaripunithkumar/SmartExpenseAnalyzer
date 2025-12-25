@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Expense Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Smart Expense Analyzer</h2>
+
+    <form method="POST">
+        <label>Category</label>
+        <input type="text" name="category" placeholder="Food / Travel / Rent" required>
+
+        <label>Amount</label>
+        <input type="number" name="amount" placeholder="Enter amount" required>
+
+        <label>Note</label>
+        <input type="text" name="note" placeholder="Optional">
+
+        <button type="submit">Add Expense</button>
+    </form>
+
+    <p class="message">{{ message }}</p>
+
+    <a href="/summary">📊 View Summary</a>
+    <a href="/chart">🥧 View Chart</a>
+    <a href="/advice">💡 Budget Advice</a>
+</div>
+
+</body>
+</html>

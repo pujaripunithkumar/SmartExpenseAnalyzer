@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/static/style.css">
+
+<div class="container">
+    <h2>Monthly Summary</h2>
+
+    <p><b>Total Expense:</b> ₹{{ total }}</p>
+
+    <ul>
+    {% for cat, amt in category_sum.items() %}
+        <li>{{ cat }} : ₹{{ amt }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="/">⬅ Back</a>
+</div>
