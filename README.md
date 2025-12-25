@@ -1,5 +1,7 @@
 # 💰 Smart Expense Analyzer
 
+![Project Banner](static/banner.png)
+
 [![Live Demo](https://img.shields.io/badge/Demo-Try%20it%20Live-success?style=for-the-badge&logo=replit)](https://code-pack--punithkumar72.replit.app)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-lightgrey?style=for-the-badge&logo=flask&logoColor=black)
@@ -66,3 +68,15 @@ Instructions to set up the project on your local machine.
  ┣ 📜 main.py            # Main Flask application logic
  ┣ 📜 expenses.csv       # Data storage (Auto-generated)
  ┗ 📜 README.md          # Documentation
+
+## 🔮 Future Roadmap
+* [ ] *Database Migration:* Upgrade from CSV to SQLite/PostgreSQL for scalability.
+* [ ] *User Auth:* Implement Login/Signup functionality.
+* [ ] *Report Export:* Generate PDF monthly reports.
+* [ ] *AI Insights:* Use basic ML to predict future expenses.
+
+## 👨‍💻 Author
+*Punith Kumar*
+* Passionate about Python development and Data Analytics.
+* [LinkedIn Profile](https://www.linkedin.com/in/punith-kumar-p-03673b326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [GitHub Profile](https://github.com/pujaripunithkumar)
+*
